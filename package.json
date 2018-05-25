@@ -1,0 +1,28 @@
+{
+  "name": "campfeed",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "clear": "clear && watchman watch-del-all && rm -rf $TMPDIR/react-* && npm cache clean -f && clear && npm start -- --reset-cache",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios"
+  },
+  "dependencies": {
+    "color": "^3.0.0",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.1",
+    "native-base": "^2.4.5",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-firebase": "^4.2.0",
+    "react-native-navigation": "^1.1.463",
+    "react-native-vector-icons": "^4.6.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-promise-middleware": "^5.1.1",
+    "redux-thunk": "^2.2.0",
+    "rxjs": "^6.2.0",
+    "seamless-immutable": "^7.1.3"
+  }
+}
